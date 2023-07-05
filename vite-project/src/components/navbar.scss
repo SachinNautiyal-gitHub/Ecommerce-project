@@ -11,14 +11,15 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: black;
     color: white;
-
+    background-color: black;
+  
     .nav-menu{
          display: flex;
          justify-content: space-evenly;
          width: 300px;
          font-size: 20px;
+         
        
          .list-item{
             color: white;

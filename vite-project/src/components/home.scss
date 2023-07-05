@@ -1,0 +1,46 @@
+
+
+
+.productsWrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+
+
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid black;
+        width: 400px;
+        height: 500px;
+        margin: 30px;
+        border-radius: 6px;
+
+        &:hover{
+            border: 2px solid rgb(26, 223, 187);
+            >img{
+                width: 60%;
+                height: 60%;
+            }
+        }
+        
+        >img{
+
+            width: 50%;
+            height: 50%;
+
+          
+        } 
+
+        .btn{
+            padding: 6px;
+            border-radius: 6px;
+            background-color: purple;
+            cursor: pointer;
+            margin-top: 4px;
+
+        }
+    }
+}
