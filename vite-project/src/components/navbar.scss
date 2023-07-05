@@ -1,0 +1,33 @@
+
+
+*{
+    margin-right: 0;
+    padding: 0;
+}
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: white;
+
+    .nav-menu{
+         display: flex;
+         justify-content: space-evenly;
+         width: 300px;
+         font-size: 20px;
+       
+         .list-item{
+            color: white;
+            text-decoration: none;
+         }
+        
+         .list-item:hover{
+            color: rgb(150, 219, 219);
+            text-decoration: underline;
+         }
+    }
+}
